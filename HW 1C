@@ -1,0 +1,25 @@
+<alcoholic-beverages>
+	<wine>
+		<white>
+		<red>
+		<rose>
+		<sparkling>
+	</wine>
+	<beer>
+		<ales>
+		<lagers>
+		<stouts>
+		<malts>
+	</beer>
+	<spirits>
+		<absinthe>
+		<bourbon>
+		<brandy>
+		<whiskey>
+		<gin>
+		<rum>
+		<scotch>
+		<tequila>
+		<vodka>
+	</spirits>
+</alcoholic-beverages>

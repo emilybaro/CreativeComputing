@@ -1,0 +1,25 @@
+<equestrian-facility>
+	<barn>
+		<stalls>
+		<tack-room>
+		<feed-room>
+		<grooming-area>
+	</barn>
+	<wash-rack>
+		<cross-ties>
+		<washing-supplies>
+		<water-hose>
+	</wash-rack>
+	<round-pen>
+		<viewing-area>
+	</round-pen>
+	<arena>
+		<instructors-booth>
+		<jumps>
+	</arena>
+	<riders-lounge>
+		<common-room>
+		<restrooms>
+		<kitchen>
+	</riders-lounge>
+</equestrian-facility>

@@ -1,0 +1,22 @@
+<country-club>
+	<swimming-pool>
+		<changing-area>
+		<lounging-area>
+		<pool>
+	</swimming-pool>
+	<gym>
+		<locker-room>
+		<weight-room>
+		<aerobics-room>
+		<spinning-room>
+		<sauna>
+		<office>
+	</gym>
+	<tennis-center>
+		<office>
+		<tennis-courts>
+	</tennis-center>
+	<cafe>
+		<dining-area>
+	</cafe>
+</country-club>
