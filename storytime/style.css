@@ -1,0 +1,42 @@
+h1{
+	font-family: "gill sans";
+	color:#FF69B4;
+	background-color:#E6E6FA;
+	padding:30px;
+	margin:90px;*/
+}
+
+h2{
+	font-family: "gill sans";
+	color: #FF69B4;
+	background-color:#E6E6FA;
+	padding:30px;
+	margin:90px;
+}
+
+h3{
+	font-family: "gill sans";
+	color: #FF69B4;
+	background-color:#E6E6FA;
+	padding:30px;
+	margin:90px;
+}
+
+
+a{
+	font-style: normal;
+	color: #9370DB;
+}
+a:hover{
+	font-style: normal;
+	color:#FF69B4;
+	background-color: #E6E6FA;
+}
+
+#endings{
+	font-family: "gill sans";
+	color: #FF69B4;
+	background-color:#E6E6FA;
+	padding:30px;
+	margin:90px;
+}

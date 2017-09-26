@@ -1,0 +1,37 @@
+h1{
+	font-family: "gill sans";
+	color:#FF69B4;
+	background-color:#E6E6FA;
+	padding:30px;
+	margin:30px;*/
+}
+			
+h2{
+	font-family: "gill sans";
+	color: #FF69B4;
+	background-color:#E6E6FA;
+}*/
+body{
+	background-color:#FFF0F5;
+}
+p{
+	font-family: "gill sans";
+	font-style: italic;
+	text-decoration: overline;
+}
+a{
+	font-style: normal;
+	color:#808000;
+}
+a:hover{
+	font-style: normal;
+	color:#FFA07A;
+	background-color: #FAFAD2;
+}
+#second-header{
+	color:#FFA500;
+	background-color: ;
+}
+#third-header{
+	color:#9ACD32;
+}
