@@ -34,8 +34,19 @@ a:hover{
 }
 
 #grey-margins{
-	color: #000000;
 	background-color:#A9A9A9;
 	padding:30px;
 	margin:90px;
+}
+
+
+#grey-margins-last-page{
+	color:#000000;
+	background-color:#A9A9A9;
+	padding:30px;
+	margin:90px;
+}
+
+#black-text{
+	color:#000000;
 }
