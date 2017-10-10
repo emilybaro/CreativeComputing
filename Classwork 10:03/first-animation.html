@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body{
+	margin:0;
+	width: 100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+#square{
+	background-color: orange;
+	width: 80vmin;
+	height: 90vmin;
+}
+@keyframes bounce{
+	50%{
+		transform: translate(0px, 100px);
+	}
+	100%{
+		transform-origin: initial; 
+	}
+}
+@keyframes rotate{
+	25%{
+		transform: rotate(90deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	75%{
+		transform: rotate(240deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.anim{
+	animation: bounce 2s infinite;
+}
+.rot{
+	animation: rotate 5s infinite;
+}
+</style> 
+</head>
+<body>
+	<div class="anim">
+		<div id="square" class="rot"></div>
+	</div>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>
