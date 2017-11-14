@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+<script>
+	
+var colorsArray = ["pink", "pink", "blue"];
+var animals = ["horse","elephant","dog"];
+var foods = ["sushi","pizza","pasta"];
+
+console.log(colorsArray[2], animals[2], foods[2]);
+
+var emily = {
+	"color" : "pink", 
+	"animal" : "horse",
+	"food" : "sushi"
+};
+
+var julia = {
+	"color" : "pink", 
+	"animal" : "elephant",
+	"food" : "pizza"
+};
+
+var claira = {
+	"color" : "blue", 
+	"animal" : "dog",
+	"food" : "pasta"
+};
+
+var people = [emily, julia, claira];
+
+var people2 = {
+	"emily" : emily,
+	"julia" : julia,
+	"claira" : claira
+};
+
+console.log(people2);
+
+console.log(people2.emily.animal);
+
+var people3 = {
+	"emily" : {
+		"color" : "pink", 
+		"animal" : "horse",
+		"food" : "sushi"
+	},
+	"julia" : {
+		"color" : "pink", 
+		"animal" : "elephant",
+		"food" : "pizza"
+	},
+	"claira" : {
+		"color" : "blue", 
+		"animal" : "dog",
+		"food" : "pasta"
+	}
+};
+
+console.log(people3);
+
+console.log(people);
+console.log(people[0].animal);
+
+// console.log( emily );
+// console.log( emily.color );
+// console.log( emily["color"] );
+
+</script>
+</body>
+</html>

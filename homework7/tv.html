@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <title>Television</title>
+    <style media="screen">
+    *{
+      padding: 0;
+      margin: 0;
+      padding:0;
+      height: 100%;
+    }
+    .ch1{
+      background-size: cover;
+      background-image: url("funnyshetland.gif");
+    }
+    .ch2{
+      background-size: cover;
+      background-image: url("babyhorseball.gif");
+    }
+    .ch3{
+      background-size: cover;
+      background-image: url("pasofino.gif");
+    }
+    .ch4{
+      background-size: cover;
+      background-image: url("horses.gif");
+    }
+    .ch5{
+      background-size: cover;
+      background-image: url("goatpony.gif");
+    }
+    .ch6{
+      background-size: cover;
+      background-image: url("doghorse.gif");
+    }
+    .ch7{
+      background-size: cover;
+      background-image: url("arabiantrot.gif");
+    }
+    .ch8{
+      background-size: cover;
+      background-image: url("xcountryfail.gif");
+    }
+    .ch9{
+      background-size: cover;
+      background-image: url("horsejumprope.gif");
+    }
+    .ch10{
+      background-size: cover;
+      background-image: url("skeletonhorse.gif");
+    }
+    .ch11{
+      background-size: cover;
+      background-image: url("mudhorse.gif");
+    }
+    </style>
+  </head>
+  <body>
+  <div id="channels" class="ch1">Channels</div>
+    <script type="text/javascript">
+    var channels = ["ch1", "ch2", "ch3", "ch4", "ch5","ch6","ch7","ch8","ch9","ch10","ch11"];
+    var numbers = ["ch1", "ch2", "ch3", "ch4","ch5","ch6","ch7","ch8","ch9","ch10","ch11"];
+    var i = channels.length;
+    var p = 0;
+  
+    document.body.addEventListener("keydown", function(event){
+      console.log(event);
+      var r = event.which;
+      if(r==38||r==40){
+      p = (r==38? ++p : --p) <0? i-1 : p%i;
+      $('#channels').attr('class',channels[p]);
+      $('#channels').attr('class',numbers[p]);
+
+        }
+      });
+    </script>
+
+  </body>
+</html>

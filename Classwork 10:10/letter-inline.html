@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+svg{
+	width: 100vmin;
+	height: 100vmin;
+	text-align: center;
+}
+.letter-path{
+	stroke-dasharray: 20;
+	stroke-dashoffset: 2;
+	animation: dash 5s linear infinite;
+}
+@keyframes dash{
+	to{
+		stroke-dashoffset: 100;
+	}
+}
+</style>
+</head>
+<body>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<g>
+	<path class="letter-path" d="M131.2,45.7h232v52.1H189.8v124.8h167.6V275H189.8v127.1h179v52.1H131.2V45.7z"/>
+</g>
+</svg></body>
+</html>
